@@ -1,0 +1,185 @@
+version: "3.0"
+
+intents:
+   - greet
+   - thank
+   - bye
+   - ask_func_list
+   - ask_name
+   - ask_time
+   - ask_phone
+   - ask_function
+   - ask_promotion
+   - ask_category
+   - ask_address
+   - ask_info_shop
+   - ask_delivery
+   - ask_concept
+   - ask_after_cofirm_order
+   - ask_gift
+   - ask_search_product
+   - ask_amount_product
+   - ask_phuongcham
+   - ask_login_checkout
+   - ask_vali_checkout
+   - ask_checkout_loiich
+   - ask_chinhsach
+   - ask_too_expensive
+   - ask_why
+   - ask_howtobuy
+   - ask_doitra
+   - ask_time_delivery
+   - ask_payment
+   - ask_vitamin
+   - ask_fruit_info
+   - ask_origin
+   - ask_fruit_price
+   - ask_cooking_recipe
+entities:
+  - vitamin
+  - fruit
+  - fruit1
+  - fruit2
+  - food
+
+responses:
+  utter_greet:
+    - text: "Chào quý khách, tôi là bot của QH Fruits, có thể hỗ trợ gì cho quý khách?"
+    - text: "Xin chào quý khách!"
+    - text: "Kính chào quý khách!"
+  utter_bye:
+    - text: "Kính chào tạm biệt và mong sớm gặp lại quý khách!"
+    - text: "Kính chào tạm biệt và chúc quý khách một ngày tốt lành!"
+    - text: "Cảm ơn quý khách đã sử dụng dịch vụ. Hẹn gặp quý khách hàng vào lần tới!!"
+    - text: "Xin chào và hẹn gặp lại!!"
+
+  utter_thank:
+    - text: "Cảm ơn quý khách!!"
+    - text: "Dạ không có gì, đó là trách nhiệm của tôi!!"
+    - text: "Vui lòng được phục vụ quý khách !!!"
+  utter_ask_func_list:
+    - text: "Tôi có thể tư vấn, giải đáp các thắc mắc của khách hàng, tôi có thể giúp gì cho quý khách?"
+    - text: "Tôi có thể tư vấn, giải đáp các thắc mắc của khách hàng để việc mua hàng của quý khách được diễn ra suôn sẻ"
+  utter_ask_name:
+    - text: "Chào quý khách, tôi là  hệ thống tư vấn khách hàng 24/7 của hệ thống bán hàng QH-Fruits"
+    - text: "Tôi là nhân viên tư vấn ảo 24/7 của cửa hàng QH-Fruits, quý khách có cần tư vấn gì không?"
+
+  utter_unclear:
+    - text: "Thưa quý khách, hiện tại tôi chưa hiểu được yêu cầu của Quý khách."
+
+  utter_ask_time:
+    - text: "Cửa hàng mở cửa hoạt động bắt đầu phục vụ khách hàng lúc 8h đến 21h tất cả các ngày trong tuần ngoại trừ ngày lễ"
+    - text: "Cửa hàng mở cửa hoạt động từ 8h sáng đến 21h tối mỗi ngày"
+
+  utter_ask_phone:
+    - text: "Hotline: 0834445508, quý khách liên hệ với số điện thoại trên để gặp nhân viên tư vấn khách hàng hoặc có thể đặt hàng trực tuyến!"
+    - text: "Số điện thoại của cửa hàng là 0834445508"
+    - text: "Hotline: 0834445508!!"
+
+  utter_ask_function:
+    - text: "Quý khách có thể thông qua website của cửa hàng để đặt hàng trực tuyến (Online), phần mềm nhận diện ảnh - tìm kiếm sản phẩm thông qua hình ảnh, Nhân viên tư vấn ảo - hỗ trợ tư vấn khách hàng trực tuyến 24/7"
+
+  utter_ask_promotion:
+    - text: "Hiện tại cửa hàng đang áp dụng các chương trình giảm giá từ 5% đến 20%, kết hợp ưu đãi rất nhiều mặt hàng. Để biệt thêm chi tiết khách hàng vui lòng truy cập vào giao diện khuyến mãi để xem thêm các thông tin khuyến mãi!"
+
+  utter_ask_info_shop:
+    - text: "Địa chỉ cửa hàng: 138/7 Trần Vĩnh Kiết, Ninh Kiều, Cần Thơ. Hotline:  083.444.5508. Email liên hệ: QH-Fruits@gmail.com"
+
+  utter_ask_delivery:
+    - text: "QH-Fruits áp dụng hỗ trợ vận chuyển , giao hàng toàn quốc cực nhanh( trong vòng 24h), an toàn, quy trình đóng gói cẩn thận, hỗ trợ toàn phần chi phí giao hàng, khách hàng khi nhận hàng có thể tiến hành kiểm tra hàng trước khi nhận và tiến hành thanh toán khi vừa ý!"
+
+  utter_ask_after_cofirm_order:
+    - text: "Cám ơn khách hàng đã sử dụng dịch vụ! Khách hàng vui lòng giữ điện thoại bên mình và chờ nhân viên cửa hàng liên lạc để xác nhận đơn hàng!"
+
+  utter_ask_gift:
+    - text: "Cửa hàng có hỗ trợ chuẩn bị quà theo yêu cầu, hỗ trợ gói quà, giao hàng đến địa chỉ mà khách hàng yêu cầu!"
+
+  utter_ask_amount_product:
+    - text: "Sản phẩm còn hàng!!"
+
+  utter_ask_search_product:
+    - text: "Khách hàng vui lòng truy cập vào biểu tượng tìm kiếm ở thanh công cụ menu và nhập vào sản phẩm cần tìm kiếm, hệ thống sẽ tiến hành kiểm tra và trả về các sản phẩm theo yêu cầu của người dùng"
+
+  utter_ask_phuongcham:
+    - text: "Phương châm của cửa hàng là cung cấp các sản phẩm tươi sạch, nguồn gốc rõ ràng, Đảm bảo vệ sinh an toàn thực phẩm với tiêu chí đêm sản phẩm đến với khách hàng một cách tốt nhất!"
+
+  utter_ask_login_checkout:
+    - text: "Quý khách vui lòng truy cập vào biểu tượng đăng nhập ở thanh công cụ menu, nhập vào tài khoản mật khẩu mà quý khách đã tạo trước đó hoặc có thể đăng kí tài khoản mới, sau khi đăng nhập thành công hệ thống sẽ thông báo quà chuyển khách hàng về giao diện chính"
+
+  utter_ask_vali_checkout:
+    - text: "Quý khách vui lòng truy cập vào biểu tượng đăng nhập ở thanh công cụ menu, truy cập vào mục đăng kí tài khoản mới và nhập vào đầy đủ theo yêu cầu, sau khi đăng ký thành công hệ thống sẽ thông báo quà chuyển khách hàng về giao diện chính"
+
+  utter_ask_checkout_loiich:
+    - text: "Khi người dùng đăng nhập có thể tham gia vào các chương trình ưu đãi, khuyến mãi cực kì hấp dẫn chỉ áp dụng cho người dùng có tài khoản, tích điểm, có thể xem lại, tra cứu lịch sử mua hàng!"
+
+  utter_ask_chinhsach:
+    - text: "Chính sách đổi trả, chính sách bảo hành"
+
+  utter_ask_too_expensive:
+    - text: "Các sản phẩm ở QH-Fruits đều là những mặt hàng tươi sạch, nguồn gốc rõ ràng, đảm bảo chất lượng và đạt tiêu chuẩn : Hữu cơ (VCO) nên có thể giá sẽ cao hơn một chút so với thị trường, giá các sản phẩm ở cửa hàng đều là nêm yết và đã có sự kiểm duyệt và đồng ý của bộ công thương!"
+
+  utter_ask_why:
+    - text: "Các sản phẩm ở QH-Fruits đều là những mặt hàng tươi sạch, nguồn gốc rõ ràng, đảm bảo chất lượng và đạt tiêu chuẩn : Hữu cơ (VCO) nên có thể giá sẽ cao hơn một chút so với thị trường, giá các sản phẩm ở cửa hàng đều là nêm yết và đã có sự kiểm duyệt và đồng ý của bộ công thương!"
+    - text: "Tiêu chí của QH-Fruits là đem đến cho người dùng, khách hàng các mặt hàng chất lượng nhất, giá cả niêm yết rõ ràng"
+
+  utter_ask_howtobuy:
+    - text: "Khách hàng nhấn vào nút thêm sản phẩm vào giỏ hàng để có thể tiến hành thêm các sản phẩm ưng ý vào giỏ hàng, ngoài ra có 2 cách thêm sản phẩm vào giỏ hàng là: thêm sản phẩm trực tiếp từ giao diện chính hoặc thêm vào giỏ hàng từ giao diện chi tiết sản phẩm với số lượng cụ thể. Khi đã hoàn thành đơn hàng khách hàng nhập vào các thông tin theo yêu cầu và xác nhận thanh toán để hệ thống tiến hành tạo ra đơn hàng. Sẽ có nhân viên liên lạc để tiến hành xác nhận đơn hàng!"
+
+  utter_ask_doitra:
+    - text: "Với các sản phẩm có vấn đề về chất lượng, cửa hàng sẽ chịu trách nhiệm và áp dụng chính sách đổi mới hoàn toàn sản phẩm cho quý khách, đồng thời hỗ trợ chi phí vận chuyển, quý khách hàng nếu phát hiện chất lượng sản phẩm có vấn đề vui lòng liên hệ với cửa hàng sớm nhất để việc bảo hành được diễn ra suôn sẽ!  "
+
+  utter_ask_time_delivery:
+    - text: "Thưa quý khách, thời gian giao hàng thông thường là trong vòng 24h"
+    - text: "Để đảm bảo nhu cầu cũng như chất lượng sản phẩm tốt nhất đến quý khách hàng, thời gian giao hàng thông thường là trong vòng 24h"
+  utter_ask_concept:
+    - text: "Nông sản là những sản phẩm hoặc bán thành phẩm của ngành sản xuất hàng hóa thông qua gây trồng và phát triển của cây trồng. Sản phẩm nông nghiệp bao gồm nhiều nhóm hàng thực phẩm, tơ sợi, nhiên liệu, nguyên vật liệu, dược phẩm và ma túy bất hợp pháp (thuốc lá, cần sa), các sản phẩm độc đáo đặc thù. Ngày nay, nông sản còn hàm nghĩa những sản phẩm từ hoạt động làm vườn và thực tế nông sản thường được hiểu là những sản phẩm hàng hóa được làm ra từ tư liệu sản xuất là đất."
+    - text: "Nông sản hàng hoá là Nông sản hàng hóa (cash crops) là khái niệm dùng để chỉ các loại nông sản mà người nông dân sản xuất ra với mục đích bán ra thị trường. Ngược với nông sản hàng hóa là nông sản phục vụ cho mục đích tự sản, tự tiêu."
+
+  utter_ask_category:
+    - text: "Hiện tại cửa hàng đang kinh doanh các thể loại sản phẩm: Nông sản quả, Nông sản gia vị, Nông sản củ, Nông sản lá, Combo gói sản phẩm,..."
+    - text: "Hiện tại cửa hàng đang kinh doanh rất nhiều thể loại mặt hàng, sản phẩm đặc biệt là các sản phẩm về nông sản, hữu cơ!"
+  utter_ask_address:
+     - text: "Địa chỉ cửa hàng: 138/7 Trần Vĩnh Kiết, Ninh Kiều, Cần Thơ."
+     - text: "Quý khách hàng có thể đến để mua sắm trực tiếp thông qua địa chỉ cửa hàng: 138/7 Trần Vĩnh Kiết, Ninh Kiều, Cần Thơ."
+  utter_ask_payment:
+    - text: "Các hình thức thanh toán hiện đang được cửa hàng hỗ trợ bao gồm: nhận hàng và thanh toán tại cửa hàng, nhận hàng và thanh toán tại nhà, thanh toán trực tuyến"
+
+actions:
+    - utter_greet
+    - utter_thank
+    - utter_bye
+    - utter_aks_func_list
+    - utter_ask_name
+    - utter_ask_time
+    - utter_ask_phone
+    - utter_ask_function
+    - utter_ask_promotion
+    - utter_ask_category
+    - utter_ask_address
+    - utter_ask_info_shop
+    - utter_ask_delivery
+    - utter_ask_concept
+    - utter_ask_after_cofirm_order
+    - utter_ask_gift
+    - utter_ask_search_product
+    - utter_ask_amount_product
+    - utter_ask_phuongcham
+    - utter_ask_login_checkout
+    - utter_ask_vali_checkout
+    - utter_ask_checkout_loiich
+    - utter_ask_chinhsach
+    - utter_ask_too_expensive
+    - utter_ask_why
+    - utter_ask_howtobuy
+    - utter_ask_doitra
+    - utter_ask_time_delivery
+    - utter_ask_payment
+    - reponse_promotion
+    - reponse_vitamin
+    - reponse_fruit_info
+    - reponse_fruit_price
+    - reponse_origin
+    - reponse_cooking_recipe
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

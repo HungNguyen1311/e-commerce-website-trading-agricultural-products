@@ -1,1 +1,286 @@
-chatbot
+
+## intent:greet
+- xin chào
+- chào bạn
+- hello
+- hi
+- hey
+- mình có vài câu hỏi
+- có ai giúp mình không
+- bạn ơi
+- anh ơi
+- chị ơi
+- cháu ơi
+- hello 
+- chào 
+- hi 
+- có ai ở đây không?
+- tôi có vài câu hỏi ?
+
+## intent:bye
+- tạm biệt
+- chào tạm biệt
+- chào nhé
+- xin chào
+- xin tạm biệt
+- tạm biệt  nhé
+- chào và hẹn gặp lại
+
+
+## intent:thank
+- chuẩn
+- hay
+- siêu
+- tuyệt
+- cám ơn
+- thanks
+- thank you
+- ok
+- cảm ơn quý khách
+- cảm ơn quý khách nhiều nhé
+- cảm ơn
+
+## intent:ask_func_list
+- bạn có thể làm được những gì
+- bạn giúp được gì nào
+- chức năng của bạn là gì
+- bạn có thể làm được mấy chức năng
+- bạn giỏi nhất làm gì
+- bạn có tư vấn giúp mình được không
+- việc gì bạn làm được
+- kể xem bạn làm được gì
+- cho mình biết bạn làm được gì nhé
+- bạn hữu dụng như thế nào
+- bạn có ích trong những việc gì
+- lĩnh vực gì bạn giỏi nhất
+- mình tò mò về những việc bạn làm được
+- chẳng biết bạn làm được gì
+- bạn tệ nhất trong việc gì
+- bạn biết được những lĩnh vực gì
+- bạn giỏi hỗ trợ nhất trong lĩnh vực gì
+- kể cho mình biết những việc bạn có thể làm được nhé
+- nói cho mình về những việc bạn giúp được mình
+- bạn giúp được mình gì nào
+- bạn có thể làm gì
+- em giúp được gì
+- em làm được gì
+- mày biết làm gì
+- em biết làm gì
+- bạn biết làm gì
+- biết làm gì
+- làm được gì 
+- có làm được gì 
+- có làm được trò gì 
+- giúp giúp cái gì
+- biết gì mà nói
+- làm được gì
+- giúp được gì
+- mày làm được gì
+- có biết gì 
+
+## intent:ask_name
+- bạn tên gì
+- tên gì
+- chị tên gì
+- anh tên gì
+- tên của bạn là gì
+- tên của chị là gì
+- tên của anh là gì
+- cho mình hỏi tên nhé
+- mình muốn biết tên bạn
+- mình muốn tiện xưng hộ hơn, cho mình biết tên nhé
+- để tiện xưng hộ thì tên bạn là gì
+- cho em xin tên của anh ạ
+- cho em xin tên của chị ạ
+- được biết tên bạn thì tốt nhỉ
+- vui lòng cho mình biết tên nhé
+- xin phép hỏi tên của bạn
+- vậy thì tên bạn là gì
+- tên bạn trong tiếng việt là gì
+- bạn có vui lòng cho mình biết tên được không
+- chúng ta nên biết tên nhau nhỉ?
+- em tên là gì thế
+- tên em là gì
+- tên em 
+- tên bạn 
+- bạn tên là gì 
+- bạn tên gì thế
+- em tên gì
+
+## intent:ask_time
+- hoạt động đến mấy giờ
+- cửa hàng mở cửa đến mấy giờ
+- mở cửa đến mấy giở
+- giờ mở cửa làm việc bán hàng là khi nào
+- cửa hàng còn mở cửa không
+- giờ mở cửa
+- giở hoạt động
+## intent:ask_address
+- địa chỉ ở đâu
+- địa chỉ cửa hàng ở đâu
+- cửa hàng ở đâu
+- địa chỉ là gì
+- cửa hàng ở đâu
+- cửa hàng ở thành phố nào
+
+## intent:ask_phone
+- số điện thoại của cửa hàng là gì
+- số điện thoại
+- số điện thoại là gì
+- số điện thoại liên lạc
+- tôi cần số điện thoại của cửa hàng
+## intent:ask_function
+- giao diện web có các chức năng gì
+- hệ thống có các chức năng gì
+## intent:ask_category
+- có sản phẩm gì
+- thể loại sản phẩm mà cửa hàng đang bán là gì
+- sản phẩm có các thể loại nào
+- các thể loại sản phẩm
+- thể loại sản phẩm
+- mặt hàng đang được kinh doanh là gì
+## intent:ask_promotion
+- có chương trình khuyến mãi nào không
+- chương trình khuyến mãi như thế nào
+- có sản phẩm nào giảm giá không
+- các sản phẩm nào đang giảm giá
+- chương trình khuyến mãi
+- khuyến mãi
+## intent:ask_info_shop
+- thông tin tổng quát của cửa hàng
+- thông tin tổng quát
+- thông tin cửa hàng
+## intent:ask_delivery
+- hình thức giao hàng thế nào
+- có được freeship không
+- đặt hàng có tốn tiền giao hàng không 
+- phí giao hàng như thế nào
+- Phí vận chuyển đơn hàng như thế nào
+- thanh toán như thế nào
+- cách thanh toán
+- hình thức giao hàng như thể nào
+- vận chuyển đến đâu
+- tôi ở tỉnh có giao hàng được không
+- có được giao hàng tận nơi không
+- đơn hàng của tôi có được miễn phí vận chuyển hay không
+- giao hàng cho tôi bằng cách nào
+- phí giao hàng là bao nhiêu
+- shiper giao hàng tôi có được xem hàng trước khi nhận không
+- có cho xem hàng khi nhận không
+## intent:ask_after_cofirm_order
+- đặt hàng thành công sau đó tôi phải làm gì
+- đặt hàng thành công rồi làm gì
+- sau khi xác nhận đơn hàng rồi thì làm gì
+## intent:ask_gift
+- tôi có thể đặt hàng làm quà tặng cho người khác hay không
+- đặt hàng online có hỏ trợ gói quà hay không
+- tôi muốn đặt sản phẩm là quà
+## intent:ask_search_product
+- làm sao để tìm sản phẩm tôi cần mua
+- tìm sản phẩm thế nào
+- cách tìm sản phẩm
+- muốn tìm sản phẩm thì làm thề nào
+- tìm sản phẩm thì làm gì
+- tìm sản phẩm
+- tra cứu sản phẩm
+- tra cứu
+## intent:ask_amount_product
+- làm sao biết sản phẩm có còn hàng hay không
+## intent:ask_phuongcham
+- phương châm của cửa hàng là gì
+## intent:ask_login_checkout
+- đăng nhập thế nào
+- làm thế nào đề đăng nhập
+## intent:ask_vali_checkout
+- cách thức đăng ký
+- làm thế nào để đăng ký
+- làm thế nào để có tài khoản
+## intent:ask_checkout_loiich
+- đăng ký thì được gì
+- đăng ký có quyền lợi gì
+## intent:ask_chinhsach
+- các chính sách của cửa hàng
+## intent:ask_too_expensive
+- tại sao giá lại đắt hơn bình thường thế
+- giá đắt quá
+- giá mắc quá
+- giá cao quá
+- tại sao giá cao thế
+- giá sản phẩm cao hơn thông thường
+## intent:ask_why
+- tại sao tôi phải mua hàng ở đây
+## intent:ask_howtobuy
+- muốn mua hàng thì làm gì
+- làm thế nào đề mua hàng
+- cách mua hàng
+- cách thức mua hàng
+## intent:ask_doitra
+- nhận hàng bị lỗi thì sao
+- chính sách đổi trả, bảo hành như thế nào
+- muốn đổi trả
+## intent:ask_time_delivery
+- thời gian giao hàng như thế nào
+- thời gian giao hàng
+## intent:ask_concept
+- nông sản là gì
+## intent:ask_shop_infomation
+- khái quát về cửa hàng của bạn
+- khái quát về qh fruits
+- khái quát về QH Fruits
+
+
+intents:
+# Ý đồ khách hàng
+ - greet
+ - thank
+ - bye
+ - ask_func_list
+ - ask_name
+
+
+templates:
+# Bot trả lời
+ utter_greet:
+  - text: "Kính chào Quý khách!"
+  - text: "Xin chào Quý khách!"
+  - text: "Có thể giúp gì cho quý khách?"
+  - text: "Chào quý khách, tôi là bot của QH Fruits, có thể hỗ trợ gì cho quý khách?"
+ utter_bye:
+  - text: "Kính chào tạm biệt và mong sớm gặp lại quý khách!"
+  - text: "Kính chào tạm biệt và chúc quý khách một ngày tốt lành!"
+  - text: "Cảm ơn quý khách đã sử dụng dịch vụ. Hẹn gặp quý khách hàng vào lần tới!!"
+ utter_thank:
+  - text: "Cảm ơn quý khách!!"
+  - text: "Dạ không có gì, đó là trách nhiệm của tôi!!"
+ utter_func_list:
+  - text: "Tôi có thể tư vấn, giải đáp các thắc mắc của khách hàng, tôi có thể giúp gì cho quý khách?"
+ utter_ask_name:
+  - text: "Chào quý khách, tôi là  hệ thống tư vấn khách hàng của hệ thống QH Fruits"
+ utter_unclear:
+  - text: "Thưa quý khách, hiện tại tôi chưa hiểu được yêu cầu của Quý khách. "
+
+actions:
+# templates (as they are reply actions),
+# also custom actions if any
+ - utter_greet
+ - utter_bye
+ - utter_unclear
+ - utter_func_list
+ - utter_thank
+ - utter_ask_name
+
+
+
+pip install --target=C:\Users\quoch\AppData\Roaming\Python\Python39\site-packages rasa
+
+
+py -m pip uninstall rasa
+
+
+
+
+
+
+
+
+
